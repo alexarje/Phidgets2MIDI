@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 20.0, 44.0, 976.0, 586.0 ],
@@ -78,29 +79,14 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-17",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 802.0, 42.0, 154.0, 19.0 ],
+					"patching_rect" : [ 802.0, 42.0, 154.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 795.0, 32.0, 154.0, 19.0 ],
-					"text" : "Alexander Refsum Jensenius"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 942.0, 23.0, 36.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 915.0, 14.0, 36.0, 19.0 ],
-					"text" : "v 0.2"
+					"presentation_rect" : [ 703.0, 32.0, 258.0, 19.0 ],
+					"text" : "fourMs lab, Dept. Musicology, University of Oslo"
 				}
 
 			}
@@ -113,9 +99,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 801.0, 13.0, 143.0, 28.0 ],
+					"patching_rect" : [ 801.0, 13.0, 144.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 778.0, 6.0, 145.0, 28.0 ],
+					"presentation_rect" : [ 811.0, 5.0, 146.0, 28.0 ],
 					"text" : "Phidgets2MIDI"
 				}
 
@@ -133,8 +119,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 714.0, 138.0, 208.0, 250.0 ],
@@ -1038,7 +1025,7 @@
 					"framecolor" : [ 0.015686, 0.015686, 0.015686, 1.0 ],
 					"hltcolor" : [ 0.882353, 0.862745, 0.862745, 1.0 ],
 					"id" : "obj-80",
-					"items" : [ "AU DLS Synth 1", ",", "SimpleSynth virtual input", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "SimpleSynth virtual input" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1749,8 +1736,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "processing.maxpat",
-				"bootpath" : "/Users/alexanje/Development/SMA_old/Max/Standalone/Phidgets2MIDI/source",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/alexanje/Development/GitHub/Phidgets2MIDI/patch",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
